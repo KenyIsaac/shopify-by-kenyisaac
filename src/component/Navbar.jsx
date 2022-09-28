@@ -3,13 +3,13 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-        <div class="container">
-          <a class="navbar-brand fw-bold fs-4 text-primary" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+        <div className="container">
+          <a className="navbar-brand fw-bold fs-4 text-primary" href="#">
             ShopiKeny
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -17,27 +17,27 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-primary" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active text-primary" aria-current="page" href="#">
                   Inicio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-primary" href="#">
+              <li className="nav-item">
+                <a className="nav-link text-primary" href="#">
                   Productos
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-primary" href="#">
+              <li className="nav-item">
+                <a className="nav-link text-primary" href="#">
                   Sobre nosotros
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-primary" href="#">
+              <li className="nav-item">
+                <a className="nav-link text-primary" href="#">
                   Contáctanos
                 </a>
               </li>
