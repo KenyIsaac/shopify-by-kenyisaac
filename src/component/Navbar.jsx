@@ -5,7 +5,7 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div class="container">
-          <a class="navbar-brand fw-bold fs-4" href="#">
+          <a class="navbar-brand fw-bold fs-4 text-primary" href="#">
             ShopiKeny
           </a>
           <button
@@ -22,22 +22,22 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <a class="nav-link active text-primary" aria-current="page" href="#">
                   Inicio
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-primary" href="#">
                   Productos
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-primary" href="#">
                   Sobre nosotros
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link text-primary" href="#">
                   Contáctanos
                 </a>
               </li>
