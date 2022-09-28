@@ -1,3 +1,8 @@
+# Especificaciones de repositorio
+
+Repositorio creado como prueba técnica de conocimientos sobre manejo de api de shopify
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
