@@ -1,11 +1,12 @@
 import React from "react";
+//import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div className="container">
-          <a className="navbar-brand fw-bold fs-4 text-primary" href="#">
+          <a className="navbar-brand fw-bold fs-4 text-primary" href="/">
             ShopiKeny
           </a>
           <button
@@ -22,32 +23,32 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active text-primary" aria-current="page" href="#">
+                <a className="nav-link active text-primary" aria-current="page" href="/">
                   Inicio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-primary" href="#">
+                <a className="nav-link text-primary" href="/products">
                   Productos
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-primary" href="#">
+                <a className="nav-link text-primary" href="/about">
                   Sobre nosotros
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-primary" href="#">
+                <a className="nav-link text-primary" href="/contact">
                   Contáctanos
                 </a>
               </li>
             </ul>
             <div className="buttons">
-                <a href="" className="btn btn-outline-primary">
+                <a href="/login" className="btn btn-outline-primary">
                     <i className="fa fa-sign-in me-1"></i>Iniciar Sesión</a>
-                <a href="" className="btn btn-outline-primary ms-2">
+                <a href="/register" className="btn btn-outline-primary ms-2">
                     <i className="fa fa-user-plus me-1"></i>Registro</a>
-                <a href="" className="btn btn-outline-primary ms-2">
+                <a href="/cart" className="btn btn-outline-primary ms-2">
                     <i className="fa fa-shopping-cart me-1"></i>Carrito (0)</a>
             </div>
           </div>
